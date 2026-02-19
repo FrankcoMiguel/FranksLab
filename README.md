@@ -1,4 +1,4 @@
-# Frank's Lab - Digital Lab where I run my experiments
+# Frank's Lab - Digital Lab - where I run my experiments
 
 # React + TypeScript + Vite
 
