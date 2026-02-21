@@ -2,6 +2,7 @@
     "id": "Projects",
     "items": [{
             "id": 1,
+            "active": "Y",
             "name": "BackPack Pro",
             "description": "Your personal academic companion to stay organized and succeed.",
             "fullDescription": "ProBackPack was born back in 2018 from a simple observation: students struggle to keep track of their assignments, deadlines, and academic progress. Built as a native Android application, it serves as your digital school bag — organizing everything you need for academic success in one place.\n\nThe app features a clean, intuitive interface that allows students to add assignments with due dates, set reminders, and track their overall college progress. Firebase integration ensures data is synced across devices and never lost.\n\nThis project is currently being remade with React Native and Expo to bring it to both iOS and Android with a modern, cross-platform approach.",
@@ -83,6 +84,7 @@
         },
         {
             "id": 2,
+            "active": "N",
             "name": "Chick-4-All",
             "description": "A WebApp devised to manage a restaurant, including stocking and human resource development, also statistics to track the sales process.",
             "fullDescription": "Chick-4-All is a comprehensive restaurant management system designed to streamline daily operations. From inventory management to employee scheduling, this web application covers all aspects of running a successful food service business.\n\nThe system provides real-time statistics and analytics to help restaurant owners make data-driven decisions about their menu, staffing, and inventory. The responsive design ensures managers can access critical information from any device.\n\nBuilt with React for a smooth user experience and MongoDB for flexible data storage, the application handles complex relationships between inventory, orders, and staff efficiently.",
@@ -138,6 +140,7 @@
         },
         {
             "id": 3,
+            "active": "Y",
             "name": "Cinema Premium",
             "description": "Cinema Premium is an API to deliver film data, built on ASP.NET Core (Clean Architecture)",
             "fullDescription": "Cinema Premium is a comprehensive Full Stack application that provides filmmaking information through multiple formats. Whether you need data via REST API, Excel worksheets, or CSV files, Cinema Premium has you covered.\n\nThe project demonstrates proficiency in building robust APIs with C# and .NET Framework, backed by Microsoft SQL Server for reliable data storage. The API follows RESTful principles and includes comprehensive documentation.\n\nThis project showcases the ability to transform raw data into various consumable formats, making it invaluable for developers, analysts, and cinema enthusiasts alike.",
@@ -194,7 +197,8 @@
             "status": "Completed"
         },
         {
-            "id": 4,
+            "id": 2,
+            "active": "Y",
             "name": "eFinance",
             "description": "Transform the way you manage your spendings, maximize savings and invest all in one app.",
             "fullDescription": "eFinance is a comprehensive personal finance management application designed to help users take control of their financial lives. With eFinance, users can intelligently track expenses, create customized budgets, set achievable financial goals, and monitor investments—all in one elegant, intuitive platform.\n\nThe app features a sleek interface built with React Native, delivering a seamless cross-platform experience on both iOS and Android. It includes an embedded SQLite database for secure, encrypted local storage of sensitive financial data, ensuring users' information remains private and always accessible offline.\n\nPowered by AWS Lambda and Claude AI, eFinance provides intelligent financial insights and recommendations. The app analyzes your spending patterns, identifies saving opportunities, and helps optimize your financial decisions. All data processing is handled securely in the cloud with automatic cleanup, maintaining both performance and privacy.",
@@ -261,10 +265,11 @@
             "playStoreUrl": "https://play.google.com/store/apps/details?id=com.efinance",
             "page": "no",
             "source": "no",
-            "status": "Completed"
+            "status": "In Progress"
         },
         {
-            "id": 5,
+            "id": 4,
+            "active": "Y",
             "name": "Vaccinations Dashboard",
             "description": "A dashboard with advanced Data Visualizations and Interactive Reports to deliver the COVID-19 Vaccinations data optimized and classified",
             "fullDescription": "The Vaccinations Dashboard is an advanced data visualization project that presents COVID-19 vaccination data in an optimized and easily digestible format. Built on Oracle APEX, it leverages powerful database capabilities for data processing.\n\nThe dashboard features interactive reports, real-time data updates, and multiple visualization types to help users understand vaccination trends, coverage rates, and demographic distributions.\n\nThis project demonstrates proficiency in data analysis, visualization design, and working with large datasets using Python for ETL processes and JavaScript for interactive frontend elements.",

@@ -130,15 +130,17 @@ const ExperimentCard = ({
               <span>View App</span>
             </a>
           )}
-          <a
-            href={source}
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center space-x-2 px-6 py-3 bg-slate-700 hover:bg-slate-600 text-white rounded-lg transition-colors"
-          >
-            <FaGithub />
-            <span>Source</span>
-          </a>
+          {source !== 'no' && (
+            <a
+              href={source}
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center space-x-2 px-6 py-3 bg-slate-700 hover:bg-slate-600 text-white rounded-lg transition-colors"
+            >
+              <FaGithub />
+              <span>Source</span>
+            </a>
+          )}
         </div>
         <button
           onClick={() => setIsOverlayOpen(false)}

@@ -178,7 +178,9 @@ const PublicationDetail = () => {
 
       {/* Related Experiments */}
       {(() => {
-        const experiments = (experimentsData as ExperimentsCategory[])[0].items;
+        const experiments = (experimentsData as ExperimentsCategory[])[0].items.filter(
+          (exp) => exp.active !== 'N'
+        );
         const pubTags = publication.tags.map(t => t.toLowerCase());
         const pubText = (publication.title + ' ' + publication.content).toLowerCase();
         

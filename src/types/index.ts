@@ -39,6 +39,7 @@ export interface Tool {
 // Experiment item
 export interface Experiment {
   id: number;
+  active?: string;
   name: string;
   description: string;
   fullDescription?: string;

@@ -11,14 +11,15 @@ import experimentsData from '../data/experiments.json';
 // Experiment logos from static folder
 const experimentLogos: Record<number, string> = {
   1: '/backpackpro-project.svg',
-  2: '/chick4all-project.svg',
+  2: '/efinance.png',
   3: '/cinemapremium-project.svg',
-  4: '/efinance.png',
-  5: '/covid-vaccinations.svg',
+  4: '/covid-vaccinations.svg',
 };
 
 const Experiments = () => {
-  const experiments = (experimentsData as ExperimentsCategory[])[0].items;
+  const experiments = (experimentsData as ExperimentsCategory[])[0].items.filter(
+    (experiment) => experiment.active !== 'N'
+  );
 
   useEffect(() => {
     AOS.init({ duration: 1000 });

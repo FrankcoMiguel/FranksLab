@@ -43,8 +43,8 @@ const Home = () => {
           </h1>
           
           <p data-aos="fade-up" data-aos-delay="200" className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
-            Welcome to my digital laboratory — where ideas are born, 
-            code is crafted, and solutions are engineered.
+            Welcome to my digital laboratory — will be documenting my experiments, 
+            projects, and discoveries in the world of software engineering.
           </p>
           
           <div data-aos="fade-up" data-aos-delay="400" className="flex flex-wrap justify-center gap-4 mb-12">

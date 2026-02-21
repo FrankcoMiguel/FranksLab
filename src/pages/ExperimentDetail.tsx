@@ -299,7 +299,7 @@ const ExperimentDetail = () => {
       {(() => {
         const currentTags = experiment.tags.map(t => t.name.toLowerCase());
         const otherExperiments = experiments
-          .filter(p => p.id !== experiment.id)
+          .filter(p => p.id !== experiment.id && p.active !== 'N')
           .map(p => ({
             ...p,
             matchCount: p.tags.filter(t => currentTags.includes(t.name.toLowerCase())).length
